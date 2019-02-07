@@ -1,0 +1,18 @@
+{
+	"data":"data/wordnet/mammal_closure.tsv",
+
+	"lr":0.3,
+
+	"c":10,
+
+	"n_epochs":1000,
+
+	"n_burn_in":100,
+
+	"batch_size": 32,
+
+	"init_radius": 0.001,
+
+	"eps": 1e-5
+	
+}
