@@ -2,7 +2,7 @@
 
 Here is my implementation of Poincare Embedding [https://arxiv.org/pdf/1705.08039.pdf]
 
-[[file:demo.png]]
+![demo.png](demo.png)
 
 The main idea of the paper is to use Hyperbolic space for embedding hierarchical data. 
 
