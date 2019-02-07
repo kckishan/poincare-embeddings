@@ -20,8 +20,7 @@ However, recreating the results came up to be a challenging task.
 This implementation is based on original repo by Facebook Research https://github.com/facebookresearch/poincare-embeddings/
 
 ## Instalation
-- requirements:
- - Python 3.6
+- requirements: Python 3.6
 - clone the repo by
 ```
 git clone https://github.com/prokopevaleksey/poincare-embeddings.git
