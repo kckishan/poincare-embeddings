@@ -1,8 +1,9 @@
 # Poincaré Embeddings for Learning Hierarchical Representations
 
-Here is my implementation of Poincare Embedding [https://arxiv.org/pdf/1705.08039.pdf]
-
 ![demo.png](demo.png)
+
+
+Here is my implementation of Poincare Embedding [https://arxiv.org/pdf/1705.08039.pdf]
 
 The main idea of the paper is to use Hyperbolic space for embedding hierarchical data. 
 
@@ -19,7 +20,8 @@ However, recreating the results came up to be a challenging task.
 This implementation is based on original repo by Facebook Research https://github.com/facebookresearch/poincare-embeddings/
 
 ## Instalation
-
+- requirements:
+ - Python 3.6
 - clone the repo by
 ```
 git clone https://github.com/prokopevaleksey/poincare-embeddings.git
@@ -49,6 +51,8 @@ pip install -r pip install -r requirements.txt
 
 - train_demo.py --> trains the model on toy data
 
+- vis.py --> visualize results using plotly
+
 - demo/ --> stores trained .pt models and .html reports
 
 ## TODO
@@ -56,3 +60,5 @@ pip install -r pip install -r requirements.txt
 - try different datasets
 - explore metaparameters space
 - organize and clean up
+- improve visualization
+- try to leveraze GPU
