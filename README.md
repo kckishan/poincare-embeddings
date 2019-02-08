@@ -1,6 +1,6 @@
 # Poincaré Embeddings for Learning Hierarchical Representations
 
-![demo.png](demo.png)
+![demo.png](animation0.gif)
 
 
 Here is my implementation of Poincare Embedding [https://arxiv.org/pdf/1705.08039.pdf]

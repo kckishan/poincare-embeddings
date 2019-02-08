@@ -17,7 +17,7 @@ print(json.dumps(config, indent=4, sort_keys=True))
 print()
 
 print("Construction dataset...")
-data = WordNetDataset(filename=config['data'])
+data = WordNetDataset(filename=config['data'],neg_samples=config['neg_samples'])
 dataloader = torch.utils.data.DataLoader(data,batch_size=config['batch_size'])
 
 print()
